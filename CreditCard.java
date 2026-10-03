@@ -6,7 +6,7 @@ public class CreditCard implements PaymentMethod {
     // constructor
     public CreditCard(String cardNumber, String securityCode) {
         this.cardNumber = cardNumber;
-        this.setSecurityCode(securityCode);
+        this.securityCode = securityCode;
     }
 
     @Override
